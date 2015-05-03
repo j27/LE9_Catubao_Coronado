@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang = ''>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/styleBook2.css">
+		<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
+		<script type="text/javascript" src="../js/jsBook2.js"></script>
+		<title>Rent a Ride</title>
+	</head>
+	<body>
+	<div id = "main">
+		<div class = "header">
+			<img src="../images/logo.png" class="car" height="90" width="235"/>
+			<div id='cssmenu'>
+				<ul>
+					<li class='last'><a href='help.html'><span>Help</span></a></li>
+					<li  class='active'><a href='book1.html'><span>Book a Ride</span></a></li>
+					<li><a href='about.html'><span>About Us</span></a></li>
+					<li><a href='home.html'><span>Home</span></a></li>
+				</ul>
+			</div>
+		</div>		
+		
+		<div class = "center">
+			
+					<div class="right">
+					
+					<b>Date & Time</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="bday" min="2015-4-27">
+					<select name="time" size="1">
+						<option name="7" value="7" selected>7 A.M.</option>
+						<option name="8" value="8">8 A.M.</option>
+						<option name="9" value="9">9 A.M.</option>
+						<option name="10" value="10">10 A.M.</option>
+						<option name="11" value="11">11 A.M.</option>
+						<option name="11" value="11">1 P.M.</option>
+						<option name="11" value="11">2 P.M.</option>
+						<option name="11" value="11">3 P.M.</option>
+						<option name="11" value="11">4 P.M.</option>
+						<option name="11" value="11">5 P.M.</option>
+					</select><br>
+					
+					<div class="hours">
+						<br><br><b>Number of Hours</b>
+							&nbsp;&nbsp;&nbsp;<input type="number" size="6" name="hours" min="1" max="10">
+					</div>
+				
+					<div class="destination" >
+						<br><br><b>Destination</b>
+							<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pick-Up:&nbsp;&nbsp;&nbsp;
+							<select name="pickup" size="1">
+							<option name="one" value="one" selected>Manila</option>
+							<option name="two" value="two">Makati</option>
+							<option name="three" value="three">Mandaluyong</option>
+							<option name="four" value="four">Quezon City</option>
+							<option name="five" value="five">Pasay</option>
+							</select>
+							<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Drop-off:&nbsp;&nbsp;&nbsp;
+							<select name=destination size=1>
+							<option name=one value=one selected>Manila</option>
+							<option name=two value=two>Makati</option>
+							<option name=three value=three>Mandaluyong</option>
+							<option name=four value=four>Quezon City</option>
+							<option name=five value=five>Pasay</option>
+							</select>
+					</div> 
+					</div>
+		
+			<div class = "incenter">
+				<br><h3>Step 2:&nbsp;&nbsp;Fill-up</h3>
+				
+				<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;Type of Car</b></p>
+				<div class = "inincenter">
+					
+					<form class = "underinincenter">
+						<div class="css-slideshow">
+							<figure>
+								<img src="../images/vios.jpg" width="400" height="250" class="alignnone size-full wp-image-172" />
+								<figcaption><strong>TOYOTA VIOS</strong></figcaption> 
+							</figure>
+							<figure>
+								<img src="../images/mirage.jpg" width="400" height="250" class="alignnone size-full wp-image-179" />
+								<figcaption><strong>MITSUBISHI MIRAGE</strong></figcaption> 
+								</figure>
+							<figure>
+								<img src="../images/honda.jpg" width="400" height="250" class="alignnone size-large wp-image-178" />
+								<figcaption><strong>HONDA CITY</strong></figcaption> 
+							</figure>
+							<figure>
+								<img src="../images/montero.jpg" width="400" height="250" class="alignnone size-full wp-image-177" />
+								<figcaption><strong>MITSUBISHI MONTERO</strong></figcaption> 
+							</figure>
+							<figure>
+								<img src="../images/fortuner.jpg" width="400" height="250" class="alignnone size-large wp-image-176" />
+								<figcaption><strong>TOYOTA FORTUNER</strong></figcaption> 
+							</figure>
+							<figure>
+								<img src="../images/ford.jpg" width="400" height="250" class="alignnone size-large wp-image-175" />
+								<figcaption><strong>FORD EVEREST</strong></figcaption> 
+							</figure>
+						</div>
+						<br><br><br><br><br><br><br><br><br><br><br><br><br>** hover slideshow for caption<br><br>
+						<input type="radio" name="mop" value="op1">TOYOTA VIOS&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="mop" value="op2">MITSUBISHI MIRAGE&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="mop" value="op3">HONDA CITY<br>
+						<input type="radio" name="mop" value="op3">MITSUBISHI MONTERO&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="mop" value="op3">TOYOTA FORTUNER&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="mop" value="op3">FORD EVEREST
+					</form>
+				</div>
+				
+		<body>
+			<input type="button" class="button" onclick="confirmation()" value="Next" class="button">
+		</body>
+				
+			<!--<div class='petsa'>
+				<b>Date & Time</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="bday" min="2015-4-27">
+				<select name="time" size="1">
+					<option name="7" value="7" selected>7 A.M.</option>
+					<option name="8" value="8">8 A.M.</option>
+					<option name="9" value="9">9 A.M.</option>
+					<option name="10" value="10">10 A.M.</option>
+					<option name="11" value="11">11 A.M.</option>
+					<option name="11" value="11">1 P.M.</option>
+					<option name="11" value="11">2 P.M.</option>
+					<option name="11" value="11">3 P.M.</option>
+					<option name="11" value="11">4 P.M.</option>
+					<option name="11" value="11">5 P.M.</option>
+				</select><br>
+			</div>-->
+					
+			
+			
+			</div>
+		</div>
+		
+		<div class = "footer">
+			<table>
+				<tr>
+					<td>
+						<div class = "col1">
+							<img src = "../images/map.png" height="230" width="370" style="position: relative; left: 40px;"/>
+						</div>
+					</td>
+					<td>
+						<div class = "col2">
+							<h2>Locate Us</h2>
+							<p>Rent a Ride<br>
+							5/F Loyola Plans Building<br>
+							87 A.H. dela Cruz Street,<br>
+							Jefferson Village, Makati City 1227,<br>
+							Metro Manila</p>
+								
+							<a class="mapbutton" target="_blank" href="https://www.google.com/maps/preview/place/Loyola+Plans+Bldg,+849+A.+Arnaiz+Ave,+Lungsod+ng+Makati,+Philippines/@14.5513965,121.0169054,17z/data=!3m1!4b1!4m2!3m1!1s0x3397c911847943dd:0x3ba43fdf75b589f3">View larger map</a>
+						</div>
+					</td>
+					<td>
+						<div class = "col3">
+							<h2>Contact Us</h2>
+							<p><img src = "../images/phone.png"/> +6328837100 / +639272103913</p>
+							<p><img src = "../images/mail.png"/> support.mnl@rentaride.com</p>
+							<p>&nbsp;&nbsp;&nbsp;<a href = "https://www.facebook.com/GrabTaxiPH?brand_redir=230076207144371"><img src = "../images/fb.png"/></a>
+							<a href = "https://twitter.com/grabtaxiph"><img src = "../images/twitter.png"/></a>
+							<a href = "http://ink361.com/app/users/ig-378715757/grabtaxiph/photos"><img src = "../images/ig.png"/></a>
+							<a href = "https://plus.google.com/107853839733231325453/about"><img src = "../images/google.png" /></a></p>
+						</div>
+					</td>
+					<td>
+						<div class = "col4">
+							&nbsp;<a href = "https://itunes.apple.com/en/app/grabtaxi-book-a-taxi/id647268330?mt=8#utm_source=grabtaxi-ph&utm_source=grabtaxi-ph&utm_medium=CTA&utm_campaign=Manila_Blog_Top"><img src = "../images/appstore.png"/></a><br>
+							&nbsp;<a href = "https://play.google.com/store/apps/details?id=com.grabtaxi.passenger&utm_source=grabtaxi-ph&utm_medium=CTA&utm_campaign=Manila_Blog_Top"><img src = "../images/gplay.png"/></a><br>
+							&nbsp;<a href = "https://appworld.blackberry.com/webstore/content/44169887/?countrycode=PH&lang=en&utm_source=grabtaxi-ph&utm_medium=CTA&utm_campaign=Manila_MainPage_Top"><img src = "../images/bb.png"/></a>
+							</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	</body>
+</html>
